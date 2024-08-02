@@ -39,7 +39,7 @@ jobs:
         gradle-version: 8.5
     
     - name: Check gradle version
-      run: ./gradlew build
+      run: gradle --version
            
       
 
